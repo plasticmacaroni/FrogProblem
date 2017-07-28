@@ -12,7 +12,7 @@ func main() {
 	rand.Seed(time.Now().UTC().UnixNano())
 
 	totalFemaleGroups := 0
-	totalIterations := float64(10000000)
+	var totalIterations float64 = 10000000
 
 	//Let's create a group of two frogs, where at least one frog is male
 	for x := 0; x < int(totalIterations); x++ {
